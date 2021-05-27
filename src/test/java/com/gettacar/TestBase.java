@@ -21,6 +21,7 @@ public class TestBase {
     }
 
     public void chooseYourCarButton() {
+
         driver.findElement(By.cssSelector("a[href='/used']")).click();
     }
 
